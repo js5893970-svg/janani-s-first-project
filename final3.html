@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Janani Selvam | Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+:root{
+    --primary:#1E3A5F;
+    --light:#ffffff;
+}
+
+body{
+    background:var(--light);
+}
+
+/* NAVBAR */
+
+nav{
+    background:var(--primary);
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+}
+
+/* HERO SECTION */
+
+.hero{
+    background:var(--primary);
+    color:white;
+    padding:40px 8%;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+}
+
+.hero img{
+    width:220px;
+    height:280px;
+    object-fit:cover;
+    border-radius:12px;
+    background:white;
+}
+
+.hero-text h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.hero-text h3{
+    font-weight:400;
+    margin-bottom:15px;
+}
+
+.hero-text p{
+    margin-bottom:8px;
+    font-size:16px;
+}
+
+/* COMMON SECTION */
+
+section{
+    width:80%;
+    max-width:900px;
+    margin:40px auto;
+}
+
+section h2{
+    color:var(--primary);
+    margin-bottom:20px;
+}
+
+/* ABOUT */
+
+.about{
+    color:var(--primary);
+    line-height:1.8;
+    font-size:17px;
+}
+
+/* SKILLS */
+
+.skill{
+    margin-bottom:18px;
+}
+
+.skill-info{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:6px;
+    color:var(--primary);
+}
+
+.bar{
+    width:100%;
+    height:10px;
+    background:#e5e5e5;
+    border-radius:20px;
+}
+
+.fill{
+    height:100%;
+    background:var(--primary);
+    border-radius:20px;
+}
+
+/* PROJECTS */
+
+.project{
+    margin-bottom:20px;
+    padding:15px;
+    border-left:4px solid var(--primary);
+}
+
+.project h3{
+    color:var(--primary);
+    margin-bottom:8px;
+}
+
+.project p{
+    color:#555;
+    line-height:1.6;
+}
+
+/* EDUCATION */
+
+.education{
+    color:var(--primary);
+    line-height:1.8;
+    font-size:17px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero img{
+    width:180px;
+    height:230px;
+}
+
+.hero-text h1{
+    font-size:36px;
+}
+
+nav{
+    flex-direction:column;
+    gap:10px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+    <div class="logo">Janani</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+    </ul>
+
+</nav>
+
+<!-- HERO -->
+
+<div cl"C:\Users\Janani S\Downloads\ChatGPT Image Jun 18, 2026, 10_31_01 AM.png" ass="hero">
+
+    <div class="hero-content">
+
+        <!-- Replace with your image name -->
+
+        <img src="janani.jpg" alt="Janani">
+
+        <div class="hero-text">
+
+            <h1>Janani Selvam</h1>
+
+            <h3>Computer Science Student</h3>
+
+            <p>📧 janani.s@gmail.com</p>
+
+            <p>📱 +91 XXXXX XXXXX</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="about">
+
+        I am a Computer Science student at Vellore Institute of Technology with a strong interest in web development and software technologies. I enjoy creating responsive websites, learning new technologies, and applying my technical skills to solve real-world problems.
+
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>HTML</span>
+            <span>95%</span>
+        </div>
+
+        <div class="bar">
+            <div class="fill" style="width:95%;"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>CSS</span>
+            <span>90%</span>
+        </div>
+
+        <div class="bar">
+            <div class="fill" style="width:90%;"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>JavaScript</span>
+            <span>80%</span>
+        </div>
+
+        <div class="bar">
+            <div class="fill" style="width:80%;"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Python</span>
+            <span>85%</span>
+        </div>
+
+        <div class="bar">
+            <div class="fill" style="width:85%;"></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project">
+
+        <h3>Sarab Fast Food Website</h3>
+
+        <p>
+            Developed a responsive restaurant website with menu display,
+            navigation bar, image slider, and interactive user interface
+            using HTML, CSS, and JavaScript.
+        </p>
+
+    </div>
+
+    <div class="project">
+
+        <h3>VIT Registration Portal</h3>
+
+        <p>
+            Designed and implemented a student registration portal featuring
+            responsive forms, validation, and multi-page navigation.
+        </p>
+
+    </div>
+
+    <div class="project">
+
+        <h3>Personal Portfolio Website</h3>
+
+        <p>
+            Built a professional portfolio website showcasing personal
+            information, technical skills, projects, and educational details.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education">
+
+    <h2>Education</h2>
+
+    <div class="education">
+
+        <strong>Bachelor of Technology</strong><br>
+
+        Computer Science and Engineering<br>
+
+        VELLORE INSTITUTE OF TECHNOLOGY, VELLORE<br>
+
+        2023 – 2027
+
+    </div>
+
+</section>
+
+</body>
+</html>
